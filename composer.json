@@ -1,0 +1,23 @@
+{
+  "name": "fortifi/productmanager-example",
+  "description": "Fortifi Product Manager Example Server",
+  "homepage": "http://fortifi.io",
+  "license": "MIT",
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "platform": {
+      "php": "7.3.5"
+    }
+  },
+  "require": {
+    "cubex/framework": "~4.3",
+    "fortifi/productmanager": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ProductManagerExample\\": "src/"
+    }
+  }
+}
