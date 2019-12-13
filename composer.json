@@ -13,6 +13,7 @@
   },
   "require": {
     "cubex/framework": "~4.3",
+    "rmccue/requests": "1.7.*",
     "fortifi/productmanager": "dev-master"
   },
   "autoload": {
